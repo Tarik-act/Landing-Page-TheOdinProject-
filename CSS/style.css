@@ -37,6 +37,7 @@ nav .navbar {
 nav .navbar .nav-logo {
   font-size: 1.5rem;
   font-weight: bold;
+  color: #f9faf8;
 }
 
 nav .navbar .nav-links {
@@ -44,6 +45,7 @@ nav .navbar .nav-links {
   align-items: center;
   justify-content: center;
   list-style-type: none;
+  color: #b9b9b9;
 }
 nav .navbar .nav-links .nav-link:not(:last-child) {
   margin-right: 20px;
@@ -55,3 +57,164 @@ nav .navbar .nav-links .nav-link:hover {
 }
 
 /* Hero section */
+
+.section-a {
+  background-color: #1f2937;
+  color: #fff;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+}
+
+.hero-image {
+  background: url('../images/lauren-mancke-aOC7TSLb1o8-unsplash.jpg') center
+    center/cover;
+  object-fit: contain;
+  width: 900px;
+  height: 300px;
+}
+
+.hero-section .hero-content h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: bold;
+}
+
+.hero-section .hero-content p {
+  font-size: 18px;
+  color: #b9b9b9;
+}
+
+.hero-section .hero-content .btn {
+  font-family: inherit;
+  background-color: #3882f6;
+  color: #fff;
+  font-size: inherit;
+  font-weight: bold;
+  border: 1px solid #000;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.hero-section .hero-content .btn:hover {
+  background-color: #3881f6bd;
+}
+
+/* Section-B */
+.section-b {
+  margin: 3rem auto;
+  height: 400px;
+}
+
+.section-b h2 {
+  font-size: 38px;
+  font-weight: bold;
+  color: #1f2937;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-b .flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.section-b .flex .item {
+  width: 200px;
+  height: 200px;
+  transition: all 0.2s ease;
+}
+
+.section-b .flex .item:hover {
+  transform: scale(1.1);
+}
+
+.section-b .flex img {
+  border-radius: 5px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+.section-b .flex .item p {
+  color: #848383;
+  font-size: 18px;
+}
+
+/* Section-C */
+
+.section-c {
+  background-color: #e5e7eb;
+}
+
+.section-c .testimonial {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.section-c .testimonial h2 {
+  font-size: 36px;
+  font-style: italic;
+  color: #5a5c5f;
+  font-weight: lighter;
+}
+
+.section-c .testimonial p {
+  align-self: flex-end;
+  font-size: 25px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* Section-D */
+.section-d {
+  padding: 5rem 0;
+}
+
+.section-d .cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 3rem 6rem;
+  background-color: #3882f6;
+  color: white;
+  border-radius: 10px;
+}
+
+.section-d .cta .btn {
+  padding: 0.5rem 1rem;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  font-size: inherit;
+  transition: all 0.2s ease;
+}
+
+.section-d .cta .btn:hover {
+  background-color: #fff;
+  color: #3882f6;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1f2937;
+}
+
+footer p {
+  color: #b9b9b9;
+  font-size: 18px;
+  padding: 2rem 0;
+  text-align: center;
+}
